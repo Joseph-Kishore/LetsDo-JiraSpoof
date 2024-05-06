@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>To Do</fullName>
+                <default>true</default>
+                <label>To Do</label>
+            </value>
+            <value>
+                <fullName>Blocked</fullName>
+                <default>false</default>
+                <label>Blocked</label>
+            </value>
+            <value>
+                <fullName>In Dev</fullName>
+                <default>false</default>
+                <label>In Dev</label>
+            </value>
+            <value>
+                <fullName>In QA</fullName>
+                <default>false</default>
+                <label>In QA</label>
+            </value>
+            <value>
+                <fullName>QA Pass</fullName>
+                <default>false</default>
+                <label>QA Pass</label>
+            </value>
+            <value>
+                <fullName>In UAT</fullName>
+                <default>false</default>
+                <label>In UAT</label>
+            </value>
+            <value>
+                <fullName>To Deploy</fullName>
+                <default>false</default>
+                <label>To Deploy</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
